@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "ctd+CWcwUY7gVwSVLSE7G7IShy77W7tYUi/lugZqFCk=",
+  "Source": "AnimalApi",
+  "BasePath": "_content/AnimalApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AnimalApi/wwwroot",
+      "Source": "AnimalApi",
+      "ContentRoot": "/home/bartlomiej_rudnicki/Pobrane/S7/ASB/W5/AnimalApi/wwwroot/",
+      "BasePath": "_content/AnimalApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/bartlomiej_rudnicki/Pobrane/S7/ASB/W5/AnimalApi/wwwroot/AnimalApi.http",
+      "SourceId": "AnimalApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bartlomiej_rudnicki/Pobrane/S7/ASB/W5/AnimalApi/wwwroot/",
+      "BasePath": "_content/AnimalApi",
+      "RelativePath": "AnimalApi.http",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/AnimalApi.http"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+@AnimalApi_HostAddress = http://localhost:5071
+
+###
+GET {{AnimalApi_HostAddress}}/api/animals
+Accept: application/json
+
+
+###
+GET{{AnimalApi_HostAddress}}/api/animals?orderBy=description
+Accept: application/json
+
+###
+POST {{AnimalApi_HostAddress}}/api/animals
+Content-Type: application/json
+
+{
+  "idAnimal": 2,
+  "name": "Jaguar",
+  "description": "Quickest land animal",
+  "category": "Mammal",
+  "area": "Wherever"
+}
+
+
+###
+PUT {{AnimalApi_HostAddress}}/api/animals/5
+Content-Type: application/json
+
+{
+  "id": 5,
+  "name": "Dog",
+  "description": "King of the house",
+  "category": "Mammal",
+  "area": "House"
+}
+
+### 
+DELETE {{AnimalApi_HostAddress}}/api/animals/4
+Accept: application/json

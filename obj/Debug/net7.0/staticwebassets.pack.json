@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/home/bartlomiej_rudnicki/Pobrane/S7/ASB/W5/AnimalApi/wwwroot/AnimalApi.http",
+      "PackagePath": "staticwebassets/AnimalApi.http"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.AnimalApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.AnimalApi.props",
+      "PackagePath": "build\\AnimalApi.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AnimalApi.props",
+      "PackagePath": "buildMultiTargeting\\AnimalApi.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AnimalApi.props",
+      "PackagePath": "buildTransitive\\AnimalApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
